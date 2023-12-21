@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+
+    <!-- Global Navigation -->
+
+    <header role="banner">
+        <nav class="navbar" role="navigation">
+            <ul class="topnav">
+                <li><a class="current-page" href="index.html">ABOUT ME</a></li>
+                <li><a href="#form">APPLICATION FORM</a></li>
+            </ul>
+        </nav>
+        <h1>Application Form</h1>
+        <p>Fill in your details</p>
+    </header>
+
+    <!-- Form Begins -->
+
+    <section role="form">
+        <form action="" method="post" id="form">
+            <div>
+                <label for="FName">First Name</label>
+                <input type="text" id="FName" name="FName" placeholder="Enter First Name" required>
+            </div>
+            <div>
+                <label for="LName">First Name</label>
+                <input type="text" id="FName" name="LName" placeholder="Enter Last Name" required>
+            </div>
+            <div>
+                <label for="Gender">Gender
+                    <select name="Gender" id="Gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="DoB">Date of Birth</label>
+                <input type="date" name="DoB" id="DoB" required>
+            </div>
+            <div>
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+            </div>
+            <div>
+                <label for="education">Education Level
+                    <select name="education" id="education" required>
+                        <option value="">Select level of Education</option>
+                        <option value="">Graduate</option>
+                        <option value="">Undergraduate</option>
+                        <option value="">Diploma</option>
+                        <option value="">Secondary School</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="country">Country
+                    <select name="country" id="country" required>
+                        <option value="">Select your Country</option>
+                        <option value="">Nigeria</option>
+                        <option value="">Kenya</option>
+                        <option value="">Ghana</option>
+                        <option value="">Rwanda</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="state">State/City of Residence</label>
+                <input type="text" placeholder="Enter your state of residence" required>
+            </div>
+            <div>
+                <label for="employment">Employment Status
+                    <select name="employment" id="employment" required>
+                        <option value="">Select Employment Status</option>
+                        <option value="">Employed</option>
+                        <option value="">Self-employed</option>
+                        <option value="">Unemployed</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel"  name="phone" id="phone" placeholder="08053503230" required>
+            </div>
+            <div>
+                <label for="school">Choose School
+                    <select name="school" id="school" required>
+                        <option value="">Select School</option>
+                        <option value="">School of Engineering</option>
+                        <option value="">School of Data</option>
+                        <option value="">School of Product</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="course">Choose Course of Study
+                    <select name="course" id="course" required>
+                        <option value="">Select course</option>
+                        <option value="">Frontend Engineering</option>
+                        <option value="">Backend Engineering</option>
+                        <option value="">Cloud Engineering</option>
+                        <option value="">Product Design</option>
+                        <option value="">Data Analyst</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="about-us">How did you hear about us?
+                    <select name="about-us" id="about-us" required>
+                        <option value="">Select channel</option>
+                        <option value="">Instagram</option>
+                        <option value="">Twitter</option>
+                        <option value="">Facebook</option>
+                        <option value="">TikTok</option>
+                        <option value="">Word of mouth</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="discount">Scholarship/Discount code (optional)</label>
+                <input type="text" name="discount" id="discount" placeholder="Scholarship or Student ID or ..." required>
+            </div>
+            <div>
+                <p>By clicking continue, I agree to <a href="#" aria-describedby="terms-desc">Terms of Use</a> and acknowlege that I have read the <a href="#" aria-describedby="privacy-desc">Private Policy.</a></p>
+            </div>
+            <div>
+                <input type="submit" value="Proceed">
+            </div>
+            <div>
+                Already have an account?<a href="">Sign in</a>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
