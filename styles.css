@@ -1,0 +1,28 @@
+/* About Me Page */
+
+html {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about_me {
+    text-align: center;
+}
+
+.topnav {
+    list-style-type: none;
+}
+
+.hobby_list {
+    list-style-type: none;
+}
+
+/* Form page */
+
+.form-page {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
